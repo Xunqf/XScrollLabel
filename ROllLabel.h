@@ -16,5 +16,9 @@
  *superView,要加载标签的视图
  *rect ,标签的frame
  */
-+ (void)rollLabelTitle:(NSString *)title color:(UIColor *)color font:(UIFont *)font superView:(UIView *)superView fram:(CGRect)rect;
++ (void)rollLabelTitle:(NSString *)title
+                 color:(UIColor *)color
+                  font:(UIFont *)font
+             superView:(UIView *)superView
+                  fram:(CGRect)rect;
 @end
